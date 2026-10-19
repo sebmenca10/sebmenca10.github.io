@@ -9,3 +9,7 @@ h1 { font-size:30px; line-height:1.2; margin:0 0 8px; } h2 { font-size:20px; mar
 .muted { color:var(--muted); } a { color:var(--accent); }
 .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin:24px 0; }
 footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+.yt { border-left:4px solid #ff0000; }
+.yt-badge { display:flex; align-items:center; gap:10px; font-weight:600; margin-top:0; }
+.yt-play { width:28px; height:20px; border-radius:6px; background:#ff0000; position:relative; flex:none; }
+.yt-play::after { content:""; position:absolute; left:11px; top:5px; border-left:8px solid #fff; border-top:5px solid transparent; border-bottom:5px solid transparent; }
